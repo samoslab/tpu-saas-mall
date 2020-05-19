@@ -1,0 +1,19 @@
+[2020-03-04 10:15:29][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[48] in /Users/hanyouhong/PhpstormProjects/saas/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /Users/hanyouhong/PhpstormProjects/saas/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /Users/hanyouhong/PhpstormProjects/saas/vendor/easyswoole/easyswoole/src/Core.php(114): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /Users/hanyouhong/PhpstormProjects/saas/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /Users/hanyouhong/PhpstormProjects/saas/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /Users/hanyouhong/PhpstormProjects/saas/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(54): EasySwoole\EasySwoole\Command\CommandConta at file:/Users/hanyouhong/PhpstormProjects/saas/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-03-08 15:12:54][DEBUG][ERROR] : [Cannot declare class App\Api\Passport, because the name is already in use at file:/Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php line:19]
+[2020-03-08 15:13:07][DEBUG][ERROR] : [Cannot declare class App\Api\Passport, because the name is already in use at file:/Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php line:19]
+[2020-03-08 15:13:57][DEBUG][ERROR] : [Cannot declare class App\Api\Passport, because the name is already in use at file:/Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php line:19]
+[2020-03-08 15:14:58][DEBUG][ERROR] : [Cannot declare class App\Api\Passport, because the name is already in use at file:/Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php line:19]
+[2020-03-08 15:15:46][DEBUG][ERROR] : [Cannot declare class App\Api\Passport, because the name is already in use at file:/Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php line:19]
+[2020-03-08 16:07:43][DEBUG][ERROR] : [Cannot declare class App\Api\Passport, because the name is already in use at file:/Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php line:19]
+[2020-03-08 16:14:02][DEBUG][ERROR] : [Cannot declare class App\Api\Passport, because the name is already in use at file:/Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php line:19]
+[2020-03-08 16:33:01][DEBUG][ERROR] : [Uncaught TypeError: Argument 1 passed to EasySwoole\ORM\Utility\TableObjectGeneration::__construct() must be an instance of EasySwoole\ORM\Db\ConnectionInterface, null given, called in /Users/hanyouhong/PhpstormProjects/saas/vendor/tioncico/curd-automatic-generation/src/Generation.php on line 33 and defined in /Users/hanyouhong/PhpstormProjects/saas/vendor/easyswoole/orm/src/Utility/TableObjectGeneration.php:28
+Stack trace:
+#0 /Users/hanyouhong/PhpstormProjects/saas/vendor/tioncico/curd-automatic-generation/src/Generation.php(33): EasySwoole\ORM\Utility\TableObjectGeneration->__construct(NULL, 'user')
+#1 {main}
+  thrown at file:/Users/hanyouhong/PhpstormProjects/saas/vendor/easyswoole/orm/src/Utility/TableObjectGeneration.php line:28]

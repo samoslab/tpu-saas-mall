@@ -1,0 +1,229 @@
+[2020-03-03 17:52:28 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:52:37 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:52:40 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:52:47 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:52:50 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:52:55 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:53:05 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:54:05 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:54:24 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:54:54 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:55:15 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:55:37 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:55:39 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:59:41 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 17:59:56 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:00:03 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:00:07 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:00:13 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:00:27 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:00:33 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:01:10 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:01:12 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:01:57 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:03:03 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:03:12 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:03:21 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:03:42 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:03:47 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:03:52 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-03 18:04:25 $3753.0]	INFO	Server is reloading all workers now
+[2020-03-04 04:44:40 #3751.8]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 04:44:40 *53401.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 04:44:40 *53400.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 04:44:40 *53399.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 04:44:40 *53404.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 04:44:40 *53403.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 04:44:40 *53402.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 04:44:40 *53405.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 04:44:40 *53406.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 04:44:40 $3753.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 04:44:40 $3753.0]	WARNING	swManager_check_exit_status: worker#12[pid=3766] abnormal exit, status=0, signal=1
+[2020-03-04 04:44:40 $3753.0]	WARNING	swManager_check_exit_status: worker#11[pid=3765] abnormal exit, status=0, signal=1
+[2020-03-04 04:44:40 $3753.0]	WARNING	swManager_check_exit_status: worker#10[pid=3764] abnormal exit, status=0, signal=1
+[2020-03-04 04:44:40 $3753.0]	WARNING	swManager_check_exit_status: worker#9[pid=3763] abnormal exit, status=0, signal=1
+[2020-03-04 04:44:40 $3753.0]	WARNING	swManager_check_exit_status: worker#8[pid=3762] abnormal exit, status=0, signal=1
+[2020-03-04 04:44:43 #3751.8]	INFO	Server is shutdown now
+[2020-03-04 10:17:20 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:17:25 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:21:43 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:21:58 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:22:02 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:22:13 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:29:26 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:32:08 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:32:32 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:33:06 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:34:24 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:35:14 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:35:32 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:35:50 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:36:19 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:36:21 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:37:48 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:40:59 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:41:16 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:44:19 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:44:25 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:45:53 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:46:30 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:46:35 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:46:52 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:47:00 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:47:08 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:49:21 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:50:05 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:50:10 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:50:15 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:50:17 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:50:23 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:50:26 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:52:23 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:52:32 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:52:34 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:52:37 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:52:44 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:53:16 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:53:19 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:53:22 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:53:23 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:53:26 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:57:31 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:58:37 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:58:54 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:59:02 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:59:03 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 10:59:17 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:00:39 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:00:45 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:00:49 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:01:25 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:01:39 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:01:44 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:01:56 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:06:04 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:16:01 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:18:30 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:18:43 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:19:26 $26081.0]	INFO	Server is reloading all workers now
+[2020-03-04 11:53:27 #26079.8]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 11:53:27 *60352.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 11:53:27 *60349.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 11:53:27 $26081.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 11:53:27 *60351.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 11:53:27 *60354.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 11:53:27 *60350.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 11:53:27 *60347.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 11:53:27 *60353.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 11:53:27 $26081.0]	WARNING	swManager_check_exit_status: worker#12[pid=26094] abnormal exit, status=0, signal=1
+[2020-03-04 11:53:27 *60348.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-04 11:53:27 $26081.0]	WARNING	swManager_check_exit_status: worker#11[pid=26093] abnormal exit, status=0, signal=1
+[2020-03-04 11:53:27 $26081.0]	WARNING	swManager_check_exit_status: worker#10[pid=26092] abnormal exit, status=0, signal=1
+[2020-03-04 11:53:27 $26081.0]	WARNING	swManager_check_exit_status: worker#9[pid=26091] abnormal exit, status=0, signal=1
+[2020-03-04 11:53:27 $26081.0]	WARNING	swManager_check_exit_status: worker#8[pid=26090] abnormal exit, status=0, signal=1
+[2020-03-05 15:01:55 #26079.8]	INFO	Server is shutdown now
+[2020-03-08 15:11:33 $99340.0]	INFO	Server is reloading all workers now
+[2020-03-08 15:12:54 *99739.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\Api\Passport, because the name is already in use in /Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php on line 19
+[2020-03-08 15:12:54 $99340.0]	WARNING	swManager_check_exit_status: worker#1[pid=99739] abnormal exit, status=255, signal=0
+[2020-03-08 15:13:07 *928.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\Api\Passport, because the name is already in use in /Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php on line 19
+[2020-03-08 15:13:07 $99340.0]	WARNING	swManager_check_exit_status: worker#1[pid=928] abnormal exit, status=255, signal=0
+[2020-03-08 15:13:57 *1102.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\Api\Passport, because the name is already in use in /Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php on line 19
+[2020-03-08 15:13:57 $99340.0]	WARNING	swManager_check_exit_status: worker#1[pid=1102] abnormal exit, status=255, signal=0
+[2020-03-08 15:14:58 *1632.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\Api\Passport, because the name is already in use in /Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php on line 19
+[2020-03-08 15:14:58 $99340.0]	WARNING	swManager_check_exit_status: worker#1[pid=1632] abnormal exit, status=255, signal=0
+[2020-03-08 15:15:46 *2236.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\Api\Passport, because the name is already in use in /Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php on line 19
+[2020-03-08 15:15:46 $99340.0]	WARNING	swManager_check_exit_status: worker#1[pid=2236] abnormal exit, status=255, signal=0
+[2020-03-08 16:07:43 *2693.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\Api\Passport, because the name is already in use in /Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php on line 19
+[2020-03-08 16:07:43 $99340.0]	WARNING	swManager_check_exit_status: worker#1[pid=2693] abnormal exit, status=255, signal=0
+[2020-03-08 16:14:02 *7142.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\Api\Passport, because the name is already in use in /Users/hanyouhong/PhpstormProjects/saas/App/HttpController/Api/Passport.php on line 19
+[2020-03-08 16:14:02 $99340.0]	WARNING	swManager_check_exit_status: worker#1[pid=7142] abnormal exit, status=255, signal=0
+[2020-03-08 16:15:49 $99340.0]	INFO	Server is reloading all workers now
+[2020-03-08 16:35:43 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 16:39:09 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:23:14 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:24:29 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:24:57 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:27:17 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:28:15 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:31:47 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:31:56 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:32:08 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:32:55 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:33:27 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:34:03 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:34:12 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:35:01 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:40:32 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:40:46 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:41:10 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:41:54 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:42:15 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 17:42:16 $11608.0]	INFO	Server is reloading all workers now
+[2020-03-08 19:07:42 *59356.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-08 19:07:42 *59349.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-08 19:07:42 *59353.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-08 19:07:42 *59350.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-08 19:07:42 *59351.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-08 19:07:42 *59354.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-08 19:07:42 *59352.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-08 19:07:42 *59355.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-08 19:07:42 $11608.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-08 19:07:42 #11606.8]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-03-08 19:07:43 $11608.0]	WARNING	swManager_check_exit_status: worker#12[pid=11621] abnormal exit, status=0, signal=1
+[2020-03-08 19:07:43 $11608.0]	WARNING	swManager_check_exit_status: worker#11[pid=11620] abnormal exit, status=0, signal=1
+[2020-03-08 19:07:43 $11608.0]	WARNING	swManager_check_exit_status: worker#10[pid=11619] abnormal exit, status=0, signal=1
+[2020-03-08 19:07:43 $11608.0]	WARNING	swManager_check_exit_status: worker#9[pid=11618] abnormal exit, status=0, signal=1
+[2020-03-08 19:07:43 $11608.0]	WARNING	swManager_check_exit_status: worker#8[pid=11617] abnormal exit, status=0, signal=1
+[2020-03-09 18:35:00 *59356.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:36:00 *27614.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:37:00 *28174.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:38:00 *28642.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:39:00 *29228.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:40:00 *29789.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:41:00 *30351.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:42:00 *30834.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:43:00 *31406.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:44:00 *31971.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:45:00 *32438.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:46:00 *32999.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:47:00 *33591.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:48:00 *34068.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:49:00 *34629.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:50:00 *35189.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:51:00 *35657.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:52:00 *36218.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:53:00 *36788.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:54:00 *37348.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:55:00 *37814.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:56:00 *38374.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:57:00 *38940.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:58:00 *39413.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 18:59:00 *39972.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:00:00 *40534.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:01:00 *41000.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:02:00 *41571.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:09:00 *42130.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:16:00 *42513.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:17:00 *43442.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:18:00 *44006.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:27:00 *44569.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:28:00 *45258.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:29:00 *45755.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:30:00 *46351.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:31:00 *46912.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:32:00 *47383.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:33:00 *47952.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:34:00 *48511.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:35:00 *48980.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:36:00 *49553.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:37:00 *50119.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:38:00 *50589.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:39:00 *51153.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:40:00 *51717.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:41:00 *52187.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:42:00 *52749.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:43:00 *53314.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:44:00 *53796.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:45:00 *54359.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:46:00 *54923.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-03-09 19:48:50 #11606.8]	INFO	Server is shutdown now
