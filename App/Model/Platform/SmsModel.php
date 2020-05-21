@@ -9,10 +9,15 @@
 namespace App\Model\Platform;
 
 
+use App\Model\MysqlModel;
 use App\Task\TaskSms;
 use App\Utility\CacheTools;
 use App\Utility\ErrorCode;
 use EasySwoole\Component\Singleton;
+use EasySwoole\DDL\Blueprint\Table;
+use EasySwoole\DDL\DDLBuilder;
+use EasySwoole\DDL\Enum\Character;
+use EasySwoole\DDL\Enum\Engine;
 use \EasySwoole\EasySwoole\Swoole\Task\TaskManager;
 use \EasySwoole\EasySwoole\Config;
 use EasySwoole\Utility\Random;
@@ -22,148 +27,44 @@ use EasySwoole\EasySwoole\Logger;
 use App\Utility\Pool\RedisPool;
 use App\Model\MongoModel;
 
-class SmsModel extends MongoModel
+class SmsModel extends MysqlModel
 {
 
-    use Singleton;
+    protected $tableName = 'platform_sms';
 
-    public static $table = "platform_sms";
-
-    /*
-     * ts
-     * sms
-     * sender
-     *
-     */
-
-    public function sendSms($app,$sid,$phone,$op,$delta,$code,$ip='127.0.0.1',$nation="86") {
-
-        $ts = time();
-
-        $minute = round($delta/60);
-        $expire = $ts+$delta;
-        echo $ts."-".$delta;
-        //save to redis
-        $redis = CacheTools::getRedis();
-        $value = ['app'=>$app,'op'=>$op, 'nation'=>$nation,'phone'=>$phone, 'code'=>$code,'ip'=>$ip];
-        $v = json_encode($value);
-
-        $redis->setEx($sid, $expire, $v);
+    protected $autoTimeStamp ="datetime";
+    protected $createTime = 'created_at';
+    protected $updateTime = 'updated_at';
 
 
+    public function getDDL() {
+        $sql = DDLBuilder::table($this->tableName, function (Table $table)
+        {
 
-        //TODO: 根据平台自己的设置
-        $appid =  Config::getInstance()->getConf('sms.appid');
-        $appkey =  Config::getInstance()->getConf('sms.appkey');
-        try {
-            $msg="【丰栊科技】{$code}为您的验证码，请于{$minute}分钟内填写。如非本人操作，请忽略本短信。";
-            $ssender = new SmsSingleSender($appid, $appkey);
-            $result = $ssender->send(0, $nation, $phone, $msg, "", "");
 
-            $items = json_decode($result,true);
+            $table->setTableComment('短消息')//设置表名称/
+            ->setTableEngine(Engine::INNODB)//设置表引擎
+            ->setTableCharset(Character::UTF8MB4_GENERAL_CI);//设置表字符集
+            $table->colInt('id', 10)->setColumnComment('用户ID')->setIsAutoIncrement()->setIsPrimaryKey();
+            $table->colVarChar('app')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('APP');
+            $table->colVarChar('nation')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('手机国家号码');
+            $table->colVarChar('sid')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('sid');
+            $table->colVarChar('op')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('op操作'); //邀请类型
+
+            $table->colVarChar('phone')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('phone'); //deposit,withdraw,fee
+            $table->colVarChar('code')->setIsNotNull(false)->setColumnLimit(64)->setColumnComment('code'); //
+            $table->colVarChar('expire')->setIsNotNull(false)->setColumnLimit(64)->setColumnComment('expire'); //
+            $table->colVarChar('msg')->setIsNotNull(false)->setColumnLimit(256)->setColumnComment('msg'); //
+            $table->colVarChar('ip')->setIsNotNull(false)->setColumnLimit(64)->setColumnComment('ip'); //
+
+            $table->colDateTime('created_at')->setIsNotNull(false)->setColumnComment('创建时间');
+            $table->colDateTime('updated_at')->setIsNotNull(false)->setColumnComment('更新时间');
 
 
 
-            //save to db
-            if($items['result'] != 0) {
-                $errmsg=$items['errmsg'];
-                $ret =  ['code'=>1,'result'=>['sid'=>$sid],'msg'=>$items['errmsg']];
-            } else {
-                $errmsg="";
-                $ret =  ['code'=>0,'result'=>['sid'=>$sid],'msg'=>'验证码发送成功'];
-
-            }
-
-            $item=[
-                'app'=>$app,
-                'nation'=>$nation,
-                'sid'=>$sid,
-                'op'=>$op,
-                'phone'=>$phone,
-                'code'=>$code,
-                'ts'=>ts() ,
-                'expire'=>$expire,
-                'errmsg'=>$errmsg,
-                'msg'=>$msg,
-                'ip'=>$ip,
-
-
-            ];
-            $this->tbl()->insertOne($item);
-
-            return $ret;
-
-        } catch(\Exception $e) {
-            echo ts().__METHOD__."|0|发送验证码失败|".$e->getMessage()."\n";
-            return ['code'=>1,'result'=>['sid'=>$sid],'msg'=>'发送验证码失败'];
-
-        }
-
-
-
-
+        });
+        return $sql;
     }
-
-
-
-
-    /**
-     * 尝试发送用户验证码
-     *
-     * @param        $phone
-     * @param string $op
-     *
-     * @return array
-     */
-    public function trySendUserValidateCode($app,$nation,$phone, $op = 'register',$ip) {
-//       var_dump( func_get_args());
-
-
-        $code = Random::number(6);
-        $expire =  Config::getInstance()->getConf('Security.sms_expire_time');
-        $sid = Random::makeUUIDV4();
-
-
-       return $this->sendSms($app,$sid,$phone,$op,$expire,$code,$ip,$nation);
-    }
-
-
-
-    /**
-     * @param $sid
-     * @param $code
-     * 注册的时候必须验证phone，在日程工作的时候不需要验证phone，
-     * ip移动网络原因不验证
-     */
-    public function checkSidCode($app,$sid,$code,$phone="") {
-
-
-        $redis =CacheTools::getRedis();
-        $data  =$redis->get($sid);
-
-
-        $items = json_decode($data,true);
-//        var_dump($items);
-        $ret =  ['code'=>1,'msg'=>'验证码不对','result'=>$code];
-        if(!empty($items) && $items['code']==$code && $items['app']==$app ) {
-            if(!empty($phone)) {
-                if($phone == $items['phone'] && $app==$items['app']) {
-                    $ret =  ['code'=>0,'msg'=>'验证码正确','result'=>$items['nation']];
-                } else {
-                    $ret =  ['code'=>1,'msg'=>'验证码不对','result'=>$code];
-
-                }
-            } else {
-                $ret =  ['code'=>0,'msg'=>'验证码正确','result'=>$code];
-            }
-        }
-        if($code == 111111) { //for debug only
-            return ['code'=>0,'msg'=>'验证码正确','result'=>'86'];
-        }
-        return $ret;
-
-    }
-
 
 
 
