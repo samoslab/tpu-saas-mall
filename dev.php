@@ -36,5 +36,13 @@ return [
         'password'=>'',
         // 'rs'=>'rs0'
     ],
+    'REDIS'=>[
+        'host'=>'127.0.0.1',
+        'port'=>6379,
+        'POOL_TIME_OUT'=>3,
+//        'auth'=>'foobaredsksksksk198'
+        'auth'=>''
+
+    ],
 
 ];

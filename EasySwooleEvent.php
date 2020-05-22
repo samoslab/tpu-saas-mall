@@ -21,6 +21,13 @@ class EasySwooleEvent implements Event
         date_default_timezone_set('Asia/Shanghai');
         //database
 
+        $conf = config('REDIS');
+        $redisPoolConfig = \EasySwoole\RedisPool\Redis::getInstance()->register('redis',new \EasySwoole\Redis\Config\RedisConfig($conf));
+//配置连接池连接数
+        $redisPoolConfig->setMinObjectNum(5);
+        $redisPoolConfig->setMaxObjectNum(100);
+
+
         $configData = Config::getInstance()->getConf('MYSQL');
         $config = new \EasySwoole\ORM\Db\Config($configData);
         DbManager::getInstance()->addConnection(new Connection($config));
