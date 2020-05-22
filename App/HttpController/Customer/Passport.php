@@ -19,4 +19,6 @@ class Passport extends Base
         $this->writeRet($ret);
     }
 
+
+
 }
