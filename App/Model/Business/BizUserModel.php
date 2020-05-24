@@ -26,14 +26,16 @@ class BizUserModel extends MysqlModel
             $table->setTableComment('B端用户表')//设置表名称/
             ->setTableEngine(Engine::INNODB)//设置表引擎
             ->setTableCharset(Character::UTF8MB4_GENERAL_CI);//设置表字符集
-            $table->colInt('id', 10)->setColumnComment('用户ID')->setIsAutoIncrement()->setIsPrimaryKey();
+            $table->colInt('uid', 10)->setColumnComment('用户ID')->setIsAutoIncrement()->setIsPrimaryKey();
             $table->colVarChar('app')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('用户属于那个B');
-            $table->colVarChar('uid')->setIsNotNull(false)->setColumnLimit(64)->setColumnComment('用户ID');
             $table->colVarChar('password')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('登录密码');
             $table->colVarChar('tradepwd')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('交易密码');
             $table->colVarChar('username')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('用户名'); //邀请类型
+            $table->colVarChar('nation')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('nation code'); //邀请类型
             $table->colVarChar('phone')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('phone'); //邀请类型
             $table->colVarChar('email')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('email'); //邀请类型
+
+            $table->colVarChar('invite_code')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('邀请码');
 
             $table->colTinyInt('status')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('状态:已经激活');
             $table->colVarChar('remark')->setIsNotNull(false)->setColumnLimit(64)->setColumnComment('说明'); //

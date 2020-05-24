@@ -198,6 +198,10 @@ class Base extends Controller
         $form = $this->getForm();
         return get_kv($form,$key);
     }
+    public function input($key) {
+        $form = $this->getForm();
+        return get_kv($form,$key);
+    }
 
     //子类里面不一定有
     protected function getLoginInfo()

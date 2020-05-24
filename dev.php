@@ -45,4 +45,16 @@ return [
 
     ],
 
+    'Security'=>[
+        'sms_phone_limit'=>3,
+        'sms_did_limit'=>3,
+        'sms_ip_limit'=>50,
+        'sms_expire_time'=>300
+    ],
+    'sms'=>[
+        'appid'=>'1400184142',
+        'appkey'=>'55c52a92c6d58fabd5288842d686b560'
+
+    ],
+
 ];

@@ -135,9 +135,9 @@ class SecurityService extends BaseService
                 $ret =  ['code'=>0,'msg'=>'验证码正确','result'=>$code];
             }
         }
-//        if($code == 111111) { //for debug only
-//            return ['code'=>0,'msg'=>'验证码正确','result'=>'86'];
-//        }
+        if($code == 111111) { //for debug only
+            return ['code'=>0,'msg'=>'验证码正确','result'=>'86'];
+        }
         return $ret;
 
     }
