@@ -44,12 +44,30 @@ class GoodsModel extends MysqlModel
         $sql = DDLBuilder::table($this->tableName, function (Table $table)
         {
 
-            $table->setTableComment('商品')//设置表名称/
+            $table->setTableComment('商品表')//设置表名称/
             ->setTableEngine(Engine::INNODB)//设置表引擎
             ->setTableCharset(Character::UTF8MB4_GENERAL_CI);//设置表字符集
-            $table->colInt('id', 10)->setColumnComment('用户ID')->setIsAutoIncrement()->setIsPrimaryKey();
-            $table->colVarChar('app')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('用户属于那个商家APP');
+            $table->colInt('id', 10)->setColumnComment('默认ID')->setIsAutoIncrement()->setIsPrimaryKey();
+            $table->colVarChar('app')->setIsNotNull(false)->setColumnLimit(64);
            //TODO：
+            $table->colVarChar('detail')->setIsNotNull(false)->setColumnLimit(8192);
+            $table->colDecimal('retail_price',18,4)->setIsNotNull(true);
+            $table->colDecimal('counter_price',18,4)->setIsNotNull(true);
+            $table->colInt('unit')->setIsNotNull(false)->setColumnLimit(64);
+            $table->colTinyInt('is_hot')->setIsNotNull(false)->setColumnLimit(64);
+            $table->colTinyInt('is_new')->setIsNotNull(false)->setColumnLimit(64);
+            $table->colInt('sort_order')->setIsNotNull(false)->setColumnLimit(64);
+            $table->colTinyInt('is_on_sale')->setIsNotNull(false)->setColumnLimit(64);
+            $table->colVarChar('brief')->setIsNotNull(false)->setColumnLimit(512);
+            $table->colVarChar('category_id')->setIsNotNull(false)->setColumnLimit(64);
+            $table->colVarChar('name')->setIsNotNull(true)->setColumnLimit(64);
+            $table->colVarChar('goods_sn')->setIsNotNull(true)->setColumnLimit(64);
+            $table->colVarChar('brand_id')->setIsNotNull(true)->setColumnLimit(64);
+
+            $table->colVarChar('gallery')->setColumnLimit(4096)->setIsNotNull(false)->setDefaultValue("")->setColumnComment('gallery');
+
+            $table->colVarChar('pic_url')->setColumnLimit(256)->setIsNotNull(false)->setDefaultValue("")->setColumnComment('pic_url');
+            $table->colVarChar('share_url')->setColumnLimit(256)->setIsNotNull(false)->setDefaultValue("")->setColumnComment('share_url');
 
             $table->colDateTime('created_at')->setIsNotNull(false)->setColumnComment('创建时间');
             $table->colDateTime('updated_at')->setIsNotNull(false)->setColumnComment('更新时间');
