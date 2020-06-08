@@ -26,7 +26,7 @@ class MallService extends BaseService
         }
     }
 
-    public  function updateCategory(MallCateogryBean $bean) {
+    public  function updateCateogry(MallCateogryBean $bean) {
 
         $flag = CategoryModel::create()->update($bean->toArray(),['cid'=>$bean->cid,'app'=>$bean->app]);
         if($flag) {

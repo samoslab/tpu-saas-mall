@@ -18,6 +18,7 @@ class OrderModel extends MysqlModel
     protected $createTime = 'created_at';
     protected $updateTime = 'updated_at';
 
+    //参考
     public static $fields = [
         'app' => 'app',//app
         'user_id' => '用户表的用户ID',
@@ -62,6 +63,11 @@ class OrderModel extends MysqlModel
             $table->colInt('id', 10)->setColumnComment('用户ID')->setIsAutoIncrement()->setIsPrimaryKey();
             $table->colVarChar('app')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('用户属于那个商家APP');
            //TODO：
+            $table->colVarChar('uid')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('用户属于那个商家APP');
+
+            $table->colVarChar('order_sn')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('用户属于那个商家APP');
+
+            $table->colVarChar('phone')->setIsNotNull(true)->setColumnLimit(64)->setColumnComment('用户属于那个商家APP');
 
             $table->colDateTime('created_at')->setIsNotNull(false)->setColumnComment('创建时间');
             $table->colDateTime('updated_at')->setIsNotNull(false)->setColumnComment('更新时间');

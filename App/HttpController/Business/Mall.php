@@ -23,4 +23,13 @@ class Mall extends BizAuth
 
     }
 
+    /**
+     * 商品在特定的分类下面
+     */
+    public function upsertGoods()
+    {
+        $app = $this->getApp();
+
+    }
+
 }
